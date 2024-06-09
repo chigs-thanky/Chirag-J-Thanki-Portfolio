@@ -1,41 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="portfolio_style.css" />
-  </head>
-  <body>
-    <div class="logo">
-      <img
-        src="./Assets/20240222_172235.jpg"
-        alt="Chirag's Pic sitting on floor"
-      />
-      <h1>Chirag Thanki</h1>
-    </div>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chirag's Portfolio</title>
+
+  <!-- Favicon for website -->
+  <link rel="icon" href="./Assets/favicon.ico">
+
+  <!-- inking stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Adding Font Awesome CDN Library to get icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <header>
     <div class="navbar">
-      <span><a href=""> Summary</a></span>
-      <span><a href=""> Education</a></span>
-      <span><a href=""> Work Experience</a></span>
-      <span><a href=""> Skills</a></span>
-      <span><a href=""> Awards & Certification</a></span>
-      <span><a href=""> Other</a></span>
+      <ul class="nav-links">
+        <div class="logo">
+          <img src="./Assets/avatar-(ProfilePictureMaker.com) (2).png" alt="Chirag's Pic" />
+        </div>
+        <li><a href="#">Dashboard</a></li>
+        <li class="upward"><a href="#about">About</a></li>
+        <li class="center"><a href="#projects">Portfolio</a></li>
+        <li class="forward"><a href="#contact">Contact</a></li>
+        <div class="social-handles">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/chirag-thanky/" target="_blank"><i
+                  class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/chigs-thanky" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://x.com/chigs_thanky" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://wa.me/919638798285" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.instagram.com/chigs_thanky/" target="_blank"><i
+                  class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/@chiragthanki2927" target="_blank"><i
+                  class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </ul>
     </div>
+  </header>
 
-    <div class="content">
-      <table>
-        <tr>
-          <td>Content Index</td>
-          <td>Display</td>
-        </tr>
+  <!-- Project section starts -->
+  <p class="section-heading">Projects</p>
+  <div class="projects" id="projects">
+    <div class="project">
+      <img src="./Assets/Project BMI Calculator.png" alt="BMI Calculator screenshot">
+      <a href="https://chigs-thanky.github.io/Project-BMI-Calculator/" target="_blank">
+        <h3>Project-BMI-Calculator</h3>
+      </a>
+      <p>Calculate your BMI (Body Mass Index).</p>
 
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-      </table>
     </div>
-  </body>
+    <div class="project">
+      <img src="./Assets/Project Veterinarian Website.png" alt="Veterinarian website screenshot">
+      <a href="https://chigs-thanky.github.io/Project-Veterinarian-Website/" target="_blank">
+        <h3>Project-Veterinarian website</h3>
+      </a>
+      <p>Created a website from PSD to HTML.</p>
+
+    </div>
+    <div class="project">
+      <img src="./Assets/Project-Indian-Flag.png" alt="Indian-Flag screenshot">
+      <a href="https://chigs-thanky.github.io/Indian-Flag-project/" target="_blank">
+        <h3>Project-Indian-Flag</h3>
+      </a>
+      <p>Created Indian Flag using CSS Position property.</p>
+    </div>
+    <div class="project">
+      <img src="./Assets/Project Motivational Poster.png" alt="Motivational Poster screenshot">
+      <a href="https://chigs-thanky.github.io/Motivational-Poster-Project/" target="_blank">
+        <h3>Project-Motivational Poster</h3>
+      </a>
+      <p>Qutoes to read and get some inspiration😅.</p>
+
+    </div>
+  </div>
+  <!-- project section ends -->
+
+  <!-- about section starts -->
+  <div id="about">
+    <p class="section-heading">About Me</p>
+    <div class="about-content">
+      <div class="about-image"><img src="./Assets/20240222_172235.jpg" alt="Chirag's sitting image"></div>
+      <div class="about-text">
+        <ul>
+          <li>
+            <p>I'm Chirag Thanki, a technology geek who likes play with softwares. I possess strong understanding of
+              software development concepts.</p>
+          </li>
+          <li>
+            <p>I'm very passionate about knowing various technologies and always fascinated by their practical use in
+              modern
+              world.</p>
+          </li>
+          <li>
+            <p>I'm a quick learner and confident human being.</p>
+          </li>
+          <li>
+            <p>I also have major inclination towards human being and that's why I do lot of philanthropy work.</p>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <!-- about section ends -->
+  <footer>
+    <!-- CONTACT INFO STARTS -->
+    <div id="contact" class="contact-details">
+      <p class="section-heading">Contact Me</p>
+      <h4><span><i class="fa-solid fa-location-dot"></i></span>&ensp;Ahmedabad, Gujarat, India</h4>
+      <h4><span><i class="fa-solid fa-envelope"></i></span>&ensp;tchirag70@hotmail.com</h4>
+      <h4><span><i class="fa-solid fa-phone"></i></span>&ensp;+91-96387 98285</h4>
+    </div>
+    <!-- CONTACT INFO ENDS -->
+    <div class="copyright">
+      <p>&nbsp;&copy; All Rights Reserved. Chirag Thanki</p>
+    </div>
+  </footer>
+</body>
+
 </html>
