@@ -8,14 +8,9 @@
 body {
     /* height: 100vh; */
     width: auto;
-    background: #c1f7f5;
+    background: rgb(158, 196, 235, 0.7);
 }
 
-img {
-    width: 150px;
-    margin-left: -30px;
-
-}
 
 .navbar>ul {
     display: flex;
@@ -169,4 +164,15 @@ img {
 .contact-details h4 {
     font-size: 20px;
     margin: 25px;
+}
+
+.col-lg-3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.navbar .container a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    transition: transform 0.3s ease, text-decoration 0.3s ease;
 }
